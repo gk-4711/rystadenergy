@@ -21,6 +21,6 @@ df = df_list[0]
 df.dropna(how='all', axis=1, inplace=True)
 df.head(10)
 
-"""**Downloading data to CSV file**"""
+"""**Downloading data to GK file**"""
 
 df.to_csv("rystad.csv", index=False)
